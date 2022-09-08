@@ -16,6 +16,6 @@ public class Hallway {
     
     public bool [] ToArray()
     {
-        returns door;
+        return door;
     }
 }
