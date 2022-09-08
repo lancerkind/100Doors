@@ -43,7 +43,7 @@ public class HallwayTest
     [Test]
     public void Traverse()
     {
-        hallway.traverse();
+        hallway.Traverse();
         CollectionAssert.AreEqual(BuildHallwayOfOpenDoors(true), hallway.ToArray());
     }
 
