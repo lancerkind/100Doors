@@ -1,80 +1,115 @@
+using NUnit.Framework;
+using System.Collections;
+using System.Linq;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[Test]
-Public void TraverseTwice() 
+[TestFixture]
+public class HallwayTest
 {
-    hallway.Traverse();
-    hallway.Traverse();
+    Hallway hallway;
 
-    Collection.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
-}
-[Test]
-Public void TraverseWithCountOf2() 
-{
-    hallway.Traverse(2);
+    [SetUp]
+    public void SetUp(){
+        hallway = new Hallway();
+    }
+    
+    [Test]
+    public void DoorStatus()
+    {
+        Assert.AreEqual(false, hallway.IsDoorOpen(0));
+    }
 
-    Collection.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
-}
+    [Test]
+    public void ToggleToggleDoorZero()
+    {
+        hallway.Toggle(0);
+        Assert.AreEqual(true, hallway.IsDoorOpen(0));
+    }
+    
+    [Test]
+    public void ToggleDoorOne()
+    {
+        hallway.Toggle(1);
+        Assert.AreEqual(true, hallway.IsDoorOpen(1));
+    }
+    
+    [Test]
+    public void DoorNumber2Status()
+    {
+        hallway.Toggle(1);
+        Assert.AreEqual(true, hallway.IsDoorOpen(1));
+        Assert.AreEqual(false, hallway.IsDoorOpen(1));
+    }
+            
+    [Test]
+    public void Traverse()
+    {
+        hallway.traverse();
+        CollectionAssert.AreEqual(BuildHallwayOfOpenDoors(true), hallway.ToArray());
+    }
 
-[Test]
-public void ToggleDoorOne()
-{
-    hallway.toggle();
-    Assert.AreEqual(true, hallway.IsDoorOpen1));    
-}
 
-[Test]
-public void DoorNumbmer2Status()
-{
-    hallway.Toggle(1);
-    Assert.AreEqual(true, hallway.IsDoorOpen(1));
-    Assert.AreEqual(false, hallway.IsDoorOpen(0));
-}
+    [Test]
+    public void TraverseTwice() 
+    {
+        hallway.Traverse();
+        hallway.Traverse();
 
-[Test]
-public void ToggleTwice()
-{
-    hallway.Toggle(0);
-    hallway.Toggle(0);
-    Assert.AreEqual(false, hallway.IsDoorOpen(0));
-}
-[Test]
-public void ToArray()
-{
-    CollectionAssert.AreEqual(Enumerable.Repeat(false, 100).ToArray(), hallway.ToArray());
-}
+        Collection.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
+    }
+    [Test]
+    public void TraverseWithCountOf2() 
+    {
+        hallway.Traverse(2);
 
-[Test]
-Public void Traverse() 
-{
-    hallway.Traverse();
+        Collection.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
+    }
 
-    Collection.AreEqual(BuildHallwayOfOpenDoors(), hallway.ToArray());
-}
+    [Test]
+    public void ToggleDoorOne()
+    {
+        hallway.toggle();
+        Assert.AreEqual(true, hallway.IsDoorOpen1));    
+    }
 
-[Test]
-Public void TraverseTwice() 
-{
-    hallway.Traverse();
-    hallway.Traverse();
+    [Test]
+    public void DoorNumbmer2Status()
+    {
+        hallway.Toggle(1);
+        Assert.AreEqual(true, hallway.IsDoorOpen(1));
+        Assert.AreEqual(false, hallway.IsDoorOpen(0));
+    }
 
-    Collection.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
-}
+    [Test]
+    public void ToggleTwice()
+    {
+        hallway.Toggle(0);
+        hallway.Toggle(0);
+        Assert.AreEqual(false, hallway.IsDoorOpen(0));
+    }
+    [Test]
+    public void ToArray()
+    {
+        CollectionAssert.AreEqual(Enumerable.Repeat(false, 100).ToArray(), hallway.ToArray());
+    }
 
-private bool[] BulidHallwayOfOpenDoors(bool open =true) {
-    return Enumerable.Repeat(true, 100).ToArray();
-}
+    [Test]
+    public void Traverse() 
+    {
+        hallway.Traverse();
+
+        Collection.AreEqual(BuildHallwayOfOpenDoors(), hallway.ToArray());
+    }
+
+    [Test]
+    public void TraverseTwice() 
+    {
+        hallway.Traverse();
+        hallway.Traverse();
+
+        Collection.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
+    }
+
+    private bool[] BulidHallwayOfOpenDoors(bool open =true) {
+        return Enumerable.Repeat(true, 100).ToArray();
+    }
 }
