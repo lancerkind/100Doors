@@ -55,16 +55,19 @@ public class HallwayTest
         hallway.Traverse();
         hallway.Traverse();
 
-        PrintArray(BuildHallwayOfOpenDoors(false));
         CollectionAssert.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
     }
     
     [Test]
-    public void TraverseWithCountOf2() 
+    public void TraverseOpensEveryOtherDoor() 
     {
         hallway.Traverse(2);
 
-        CollectionAssert.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
+        Assert.False(hallway.ToArray()[0];
+        Assert.True(hallway.ToArray()[1];
+        Assert.False(hallway.ToArray()[2];
+        Assert.True(hallway.ToArray()[3];
+        //... and so on
     }
 
     [Test]
