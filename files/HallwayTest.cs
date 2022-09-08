@@ -53,5 +53,20 @@ public void ToArray()
     CollectionAssert.AreEqual(Enumerable.Repeat(false, 100).ToArray(), hallway.ToArray());
 }
 
+[Test]
+Public void Traverse() 
+{
+    hallway.Traverse();
 
-    
+    Collection.AreEqual(BuildHallwayOfOpenDoors(), hallway.ToArray());
+}
+
+[Test]
+Public void TraverseTwice() 
+{
+    hallway.Traverse();
+    hallway.Traverse();
+
+    Collection.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
+}
+
