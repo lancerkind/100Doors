@@ -1,1 +1,39 @@
-Compilation failed: 2 error(s), 0 warnings
+Runtime Environment
+   OS Version: Linux 4.14.287.215 
+  CLR Version: 4.0.30319.42000
+
+Test Files
+    ./RunTests.dll
+
+
+Errors, Failures and Warnings
+
+1) Failed : HallwayTest.TraverseTwice
+  Expected and actual are both <System.Boolean[100]>
+  Values differ at index [0]
+  Expected: True
+  But was:  False
+  at HallwayTest.TraverseTwice () [0x00000] in <9dc68416c4c944bdba95b2e58cf29d22>:0 
+
+2) Failed : HikerTest.life_the_universe_and_everything
+  Expected: 42
+  But was:  54
+  at HikerTest.life_the_universe_and_everything () [0x00000] in <9dc68416c4c944bdba95b2e58cf29d22>:0 
+
+Run Settings
+    DisposeRunners: True
+    WorkDirectory: /sandbox
+    ImageRuntimeVersion: 4.0.30319
+    ImageRequiresX86: False
+    ImageRequiresDefaultAppDomainAssemblyResolver: False
+    NumberOfTestWorkers: 4
+
+Test Run Summary
+  Overall result: Failed
+  Test Count: 10, Passed: 8, Failed: 2, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 2, Errors: 0, Invalid: 0
+  Start time: 2022-09-08 20:53:23Z
+    End time: 2022-09-08 20:53:24Z
+    Duration: 0.693 seconds
+
+Results (nunit3) saved as TestResult.xml

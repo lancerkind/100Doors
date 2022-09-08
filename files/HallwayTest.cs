@@ -54,16 +54,15 @@ public class HallwayTest
         hallway.Traverse();
         hallway.Traverse();
 
-        Collection.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
+        CollectionAssert.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
     }
     [Test]
     public void TraverseWithCountOf2() 
     {
         hallway.Traverse(2);
 
-        Collection.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
+        CollectionAssert.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
     }
-
 
     [Test]
     public void ToggleTwice()
@@ -77,9 +76,6 @@ public class HallwayTest
     {
         CollectionAssert.AreEqual(Enumerable.Repeat(false, 100).ToArray(), hallway.ToArray());
     }
-
-
-    
 
     private bool[] BuildHallwayOfOpenDoors(bool open =true) {
         return Enumerable.Repeat(true, 100).ToArray();
