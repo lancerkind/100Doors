@@ -315,5 +315,21 @@
       30,
       83178
     ]
+  },
+  {
+    "duration": 1.349505,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 20,
+    "time": [
+      2022,
+      9,
+      8,
+      20,
+      50,
+      58,
+      628367
+    ]
   }
 ]
