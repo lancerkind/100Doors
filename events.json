@@ -155,5 +155,21 @@
       39,
       759013
     ]
+  },
+  {
+    "duration": 1.429216,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 10,
+    "time": [
+      2022,
+      9,
+      8,
+      20,
+      42,
+      16,
+      903398
+    ]
   }
 ]

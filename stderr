@@ -1,4 +1,3 @@
-Hallway.cs(5,28): error CS0246: The type or namespace name `let' could not be found. Are you missing an assembly reference?
 HallwayTest.cs(68,17): error CS0111: A member `HallwayTest.ToggleDoorOne()' is already defined. Rename this member or use different parameter types
 HallwayTest.cs(29,17): (Location of the symbol related to previous error)
 HallwayTest.cs(96,17): error CS0111: A member `HallwayTest.Traverse()' is already defined. Rename this member or use different parameter types
