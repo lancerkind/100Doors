@@ -1,4 +1,21 @@
-HallwayTest.cs(89,17): error CS0111: A member `HallwayTest.Traverse()' is already defined. Rename this member or use different parameter types
-HallwayTest.cs(44,17): (Location of the symbol related to previous error)
-HallwayTest.cs(97,17): error CS0111: A member `HallwayTest.TraverseTwice()' is already defined. Rename this member or use different parameter types
-HallwayTest.cs(52,17): (Location of the symbol related to previous error)
+Hallway.cs(6,33): error CS0103: The name `doorNumber' does not exist in the current context
+Hallway.cs(6,47): error CS0103: The name `Fales' does not exist in the current context
+Hallway.cs(6,9): error CS0118: `Hallway.door' is a `field' but a `method group' was expected
+Hallway.cs(10,41): error CS1061: Type `bool[]' does not contain a definition for `length' and no extension method `length' of type `bool[]' could be found. Are you missing an assembly reference?
+/usr/lib/mono/4.5/mscorlib.dll (Location of the symbol related to previous error)
+Hallway.cs(10,63): error CS0201: Only assignment, call, increment, decrement, await, and new object expressions can be used as a statement
+Hallway.cs(14,9): error CS0246: The type or namespace name `returns' could not be found. Are you missing an assembly reference?
+HallwayTest.cs(24,17): error CS1061: Type `Hallway' does not contain a definition for `Toggle' and no extension method `Toggle' of type `Hallway' could be found. Are you missing an assembly reference?
+Hallway.cs(1,14): (Location of the symbol related to previous error)
+HallwayTest.cs(31,17): error CS1061: Type `Hallway' does not contain a definition for `Toggle' and no extension method `Toggle' of type `Hallway' could be found. Are you missing an assembly reference?
+Hallway.cs(1,14): (Location of the symbol related to previous error)
+HallwayTest.cs(38,17): error CS1061: Type `Hallway' does not contain a definition for `Toggle' and no extension method `Toggle' of type `Hallway' could be found. Are you missing an assembly reference?
+Hallway.cs(1,14): (Location of the symbol related to previous error)
+HallwayTest.cs(46,17): error CS1061: Type `Hallway' does not contain a definition for `traverse' and no extension method `traverse' of type `Hallway' could be found. Are you missing an assembly reference?
+Hallway.cs(1,14): (Location of the symbol related to previous error)
+HallwayTest.cs(57,9): error CS0103: The name `Collection' does not exist in the current context
+HallwayTest.cs(64,9): error CS0103: The name `Collection' does not exist in the current context
+HallwayTest.cs(71,17): error CS1061: Type `Hallway' does not contain a definition for `Toggle' and no extension method `Toggle' of type `Hallway' could be found. Are you missing an assembly reference?
+Hallway.cs(1,14): (Location of the symbol related to previous error)
+HallwayTest.cs(72,17): error CS1061: Type `Hallway' does not contain a definition for `Toggle' and no extension method `Toggle' of type `Hallway' could be found. Are you missing an assembly reference?
+Hallway.cs(1,14): (Location of the symbol related to previous error)

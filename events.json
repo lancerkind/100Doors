@@ -187,5 +187,21 @@
       14,
       407063
     ]
+  },
+  {
+    "duration": 1.32994,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 12,
+    "time": [
+      2022,
+      9,
+      8,
+      20,
+      44,
+      56,
+      106894
+    ]
   }
 ]
