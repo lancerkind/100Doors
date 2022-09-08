@@ -1,17 +1,1 @@
-Hallway.cs(11,41): error CS1955: The member `System.Array.Length' cannot be used as method or delegate
-Hallway.cs(11,65): error CS0201: Only assignment, call, increment, decrement, await, and new object expressions can be used as a statement
-Hallway.cs(15,9): error CS0246: The type or namespace name `returns' could not be found. Are you missing an assembly reference?
-HallwayTest.cs(24,17): error CS1061: Type `Hallway' does not contain a definition for `Toggle' and no extension method `Toggle' of type `Hallway' could be found. Are you missing an assembly reference?
-Hallway.cs(1,14): (Location of the symbol related to previous error)
-HallwayTest.cs(31,17): error CS1061: Type `Hallway' does not contain a definition for `Toggle' and no extension method `Toggle' of type `Hallway' could be found. Are you missing an assembly reference?
-Hallway.cs(1,14): (Location of the symbol related to previous error)
-HallwayTest.cs(38,17): error CS1061: Type `Hallway' does not contain a definition for `Toggle' and no extension method `Toggle' of type `Hallway' could be found. Are you missing an assembly reference?
-Hallway.cs(1,14): (Location of the symbol related to previous error)
-HallwayTest.cs(46,17): error CS1061: Type `Hallway' does not contain a definition for `traverse' and no extension method `traverse' of type `Hallway' could be found. Are you missing an assembly reference?
-Hallway.cs(1,14): (Location of the symbol related to previous error)
-HallwayTest.cs(57,9): error CS0103: The name `Collection' does not exist in the current context
-HallwayTest.cs(64,9): error CS0103: The name `Collection' does not exist in the current context
-HallwayTest.cs(71,17): error CS1061: Type `Hallway' does not contain a definition for `Toggle' and no extension method `Toggle' of type `Hallway' could be found. Are you missing an assembly reference?
-Hallway.cs(1,14): (Location of the symbol related to previous error)
-HallwayTest.cs(72,17): error CS1061: Type `Hallway' does not contain a definition for `Toggle' and no extension method `Toggle' of type `Hallway' could be found. Are you missing an assembly reference?
-Hallway.cs(1,14): (Location of the symbol related to previous error)
+Hallway.cs(9,12): error CS1520: Class, struct, or interface method must have a return type

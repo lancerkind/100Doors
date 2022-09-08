@@ -3,13 +3,18 @@ public class Hallway {
     private bool [] door = new bool[100];
 
     public bool IsDoorOpen(int roomNumber)  {
-        door[roomNumber] = door[roomNumber] ? false : true;
         return door[roomNumber];
     }
 
-    public void Traverse(int stepBy = 1) {
-        for ( int knob = 0; knob < door.Length(); knob++) Toggle[knob];
+    public Toggle(int roomNumber) {
+        door[roomNumber] = door[roomNumber] ? false : true;
     }
+
+        
+    public void Traverse(int stepBy = 1) {
+        for ( int knob = 0; knob < door.Length; knob++) Toggle[knob];
+    }
+    
     public bool [] ToArray()
     {
         returns door;
