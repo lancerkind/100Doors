@@ -69,4 +69,4 @@ Public void TraverseTwice()
 
     Collection.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
 }
-
+}
