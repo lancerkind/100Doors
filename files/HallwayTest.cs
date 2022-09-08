@@ -68,7 +68,7 @@ public class HallwayTest
     public void ToggleDoorOne()
     {
         hallway.toggle();
-        Assert.AreEqual(true, hallway.IsDoorOpen1));    
+        Assert.AreEqual(true, hallway.IsDoorOpen(1));    
     }
 
     [Test]
