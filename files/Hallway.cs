@@ -12,9 +12,9 @@ public class Hallway {
         
     public void Traverse(int stepBy = 1) {
         
-        for ( int knob = 0; knob < door.Length; knob = knob + (stepBy-1)) { 
-            
-            Toggle(knob);
+        for ( int knob = 0; knob < door.Length;) { 
+            knob = knob + stepBy;
+            Toggle(knob - 1);
         }
     }
     
