@@ -1,3 +1,0 @@
-HallwayTest.cs(66,16): error CS1502: The best overloaded method match for `NUnit.Framework.Assert.False(bool?, string, params object[])' has some invalid arguments
-/nunit/lib/net45/nunit.framework.dll (Location of the symbol related to previous error)
-HallwayTest.cs(66,22): error CS1503: Argument `#1' cannot convert `string' expression to type `bool?'
