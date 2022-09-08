@@ -219,5 +219,21 @@
       47,
       247131
     ]
+  },
+  {
+    "duration": 1.355311,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 14,
+    "time": [
+      2022,
+      9,
+      8,
+      20,
+      46,
+      35,
+      265828
+    ]
   }
 ]

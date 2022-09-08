@@ -4,6 +4,7 @@ public class Hallway {
 
     public bool IsDoorOpen(int roomNumber)  {
         door[roomNumber] = door[roomNumber] ? false : true;
+        return door[roomNumber];
     }
 
     public void Traverse(int stepBy = 1) {
