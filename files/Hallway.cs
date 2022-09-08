@@ -8,7 +8,7 @@ public class Hallway {
     }
 
     public void Traverse(int stepBy = 1) {
-        for ( int knob = 0; knob < door.length; knob++) Toggle[knob];
+        for ( int knob = 0; knob < door.length(); knob++) Toggle[knob];
     }
     public bool [] ToArray()
     {
