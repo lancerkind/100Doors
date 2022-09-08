@@ -1,0 +1,21 @@
+{
+  "image_name": "cyberdojofoundation/csharp_nunit:1452bb7",
+  "display_name": "C#, NUnit",
+  "filename_extension": [
+    ".cs"
+  ],
+  "max_seconds": 10,
+  "tab_size": 4,
+  "exercise": "100 doors",
+  "version": 2,
+  "created": [
+    2022,
+    9,
+    8,
+    19,
+    57,
+    6,
+    888660
+  ],
+  "id": "Dk2rKF"
+}
