@@ -13,17 +13,21 @@
 
 
 
+[Test]
+Public void TraverseTwice() 
+{
+    hallway.Traverse();
+    hallway.Traverse();
 
+    Collection.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
+}
+[Test]
+Public void TraverseWithCountOf2() 
+{
+    hallway.Traverse(2);
 
-
-
-
-
-
-
-
-
-
+    Collection.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
+}
 
 [Test]
 public void ToggleDoorOne()
