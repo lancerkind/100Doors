@@ -171,5 +171,21 @@
       16,
       903398
     ]
+  },
+  {
+    "duration": 1.204553,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 11,
+    "time": [
+      2022,
+      9,
+      8,
+      20,
+      43,
+      14,
+      407063
+    ]
   }
 ]

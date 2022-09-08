@@ -65,13 +65,6 @@ public class HallwayTest
     }
 
     [Test]
-    public void ToggleDoorOne()
-    {
-        hallway.toggle();
-        Assert.AreEqual(true, hallway.IsDoorOpen(1));    
-    }
-
-    [Test]
     public void DoorNumbmer2Status()
     {
         hallway.Toggle(1);
