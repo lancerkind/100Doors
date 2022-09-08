@@ -81,8 +81,8 @@ public class HallwayTest
         CollectionAssert.AreEqual(Enumerable.Repeat(false, 100).ToArray(), hallway.ToArray());
     }
 
-    private bool[] BuildHallwayOfOpenDoors(bool open =true) {
-        return Enumerable.Repeat(true, 100).ToArray();
+    private bool[] BuildHallwayOfOpenDoors(bool doorAjar = true) {
+        return Enumerable.Repeat(doorAjar, 100).ToArray();
     }
 
     private void PrintArray(bool [] door) {

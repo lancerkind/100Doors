@@ -6,115 +6,115 @@ Test Files
     ./RunTests.dll
 
 => HallwayTest.TraverseTwice
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
-True
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
 
 Errors, Failures and Warnings
 
-1) Failed : HallwayTest.TraverseTwice
+1) Failed : HallwayTest.TraverseWithCountOf2
   Expected and actual are both <System.Boolean[100]>
   Values differ at index [0]
-  Expected: True
-  But was:  False
-  at HallwayTest.TraverseTwice () [0x00000] in <251b303474ab4e18a99b4871a32aeb7f>:0 
+  Expected: False
+  But was:  True
+  at HallwayTest.TraverseWithCountOf2 () [0x00000] in <6d7c1c50f6da49fd92878409d616dc49>:0 
 
 Run Settings
     DisposeRunners: True
@@ -128,8 +128,8 @@ Test Run Summary
   Overall result: Failed
   Test Count: 10, Passed: 9, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
     Failed Tests - Failures: 1, Errors: 0, Invalid: 0
-  Start time: 2022-09-08 21:05:22Z
-    End time: 2022-09-08 21:05:23Z
-    Duration: 0.726 seconds
+  Start time: 2022-09-08 21:06:34Z
+    End time: 2022-09-08 21:06:35Z
+    Duration: 0.781 seconds
 
 Results (nunit3) saved as TestResult.xml
