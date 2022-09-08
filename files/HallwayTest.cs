@@ -63,7 +63,7 @@ public class HallwayTest
     {
         hallway.Traverse(2);
 
-        Assert.False(hallway.ToArray()[0]);
+        Assert.False("hallway.ToArray()[0]", hallway.ToArray()[0]);
         Assert.True(hallway.ToArray()[1]);
         Assert.False(hallway.ToArray()[2]);
         Assert.True(hallway.ToArray()[3]);
