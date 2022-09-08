@@ -1,6 +1,4 @@
-Hallway.cs(6,33): error CS0103: The name `doorNumber' does not exist in the current context
-Hallway.cs(6,47): error CS0103: The name `Fales' does not exist in the current context
-Hallway.cs(6,9): error CS0118: `Hallway.door' is a `field' but a `method group' was expected
+Hallway.cs(5,17): error CS0161: `Hallway.IsDoorOpen(int)': not all code paths return a value
 Hallway.cs(10,41): error CS1061: Type `bool[]' does not contain a definition for `length' and no extension method `length' of type `bool[]' could be found. Are you missing an assembly reference?
 /usr/lib/mono/4.5/mscorlib.dll (Location of the symbol related to previous error)
 Hallway.cs(10,63): error CS0201: Only assignment, call, increment, decrement, await, and new object expressions can be used as a statement

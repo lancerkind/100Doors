@@ -3,7 +3,7 @@ public class Hallway {
     private bool [] door = new bool[100];
 
     public bool IsDoorOpen(int roomNumber)  {
-        door(roomNumber) = door[doorNumber] ? Fales : true;
+        door[roomNumber] = door[roomNumber] ? false : true;
     }
 
     public void Traverse(int stepBy = 1) {
