@@ -54,8 +54,10 @@ public class HallwayTest
         hallway.Traverse();
         hallway.Traverse();
 
+        PrintArray(hallway.ToArray());
         CollectionAssert.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
     }
+    
     [Test]
     public void TraverseWithCountOf2() 
     {
@@ -71,6 +73,7 @@ public class HallwayTest
         hallway.Toggle(0);
         Assert.AreEqual(false, hallway.IsDoorOpen(0));
     }
+    
     [Test]
     public void ToArray()
     {
@@ -79,5 +82,11 @@ public class HallwayTest
 
     private bool[] BuildHallwayOfOpenDoors(bool open =true) {
         return Enumerable.Repeat(true, 100).ToArray();
+    }
+
+    private void PrintArray(bool [] door) {
+        for (int doorNumber = 0; doorNumber < 100; doorNumber ++) {
+            Console.WriteLine(String.Join(",", door[doorNumber]));
+        }
     }
 }
