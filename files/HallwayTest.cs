@@ -55,7 +55,7 @@ public class HallwayTest
         hallway.Traverse();
         hallway.Traverse();
 
-        PrintArray(hallway.ToArray());
+        PrintArray(BuildHallwayOfOpenDoors(false));
         CollectionAssert.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
     }
     
