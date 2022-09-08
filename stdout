@@ -13,12 +13,7 @@ Errors, Failures and Warnings
   Values differ at index [0]
   Expected: True
   But was:  False
-  at HallwayTest.TraverseTwice () [0x00000] in <9dc68416c4c944bdba95b2e58cf29d22>:0 
-
-2) Failed : HikerTest.life_the_universe_and_everything
-  Expected: 42
-  But was:  54
-  at HikerTest.life_the_universe_and_everything () [0x00000] in <9dc68416c4c944bdba95b2e58cf29d22>:0 
+  at HallwayTest.TraverseTwice () [0x00000] in <f04562f18bee4de8809930f5cd6308f9>:0 
 
 Run Settings
     DisposeRunners: True
@@ -30,10 +25,10 @@ Run Settings
 
 Test Run Summary
   Overall result: Failed
-  Test Count: 10, Passed: 8, Failed: 2, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 2, Errors: 0, Invalid: 0
-  Start time: 2022-09-08 20:53:23Z
-    End time: 2022-09-08 20:53:24Z
-    Duration: 0.693 seconds
+  Test Count: 10, Passed: 9, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 1, Errors: 0, Invalid: 0
+  Start time: 2022-09-08 20:54:14Z
+    End time: 2022-09-08 20:54:15Z
+    Duration: 0.727 seconds
 
 Results (nunit3) saved as TestResult.xml
