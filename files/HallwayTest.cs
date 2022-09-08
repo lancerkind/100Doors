@@ -69,4 +69,8 @@ Public void TraverseTwice()
 
     Collection.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
 }
+
+private bool[] BulidHallwayOfOpenDoors(bool open =true) {
+    return Enumerable.Repeat(true, 100).ToArray();
+}
 }
