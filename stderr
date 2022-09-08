@@ -1,6 +1,4 @@
-Hallway.cs(11,41): error CS1061: Type `bool[]' does not contain a definition for `count' and no extension method `count' of type `bool[]' could be found. Are you missing an assembly reference?
-/usr/lib/mono/4.5/mscorlib.dll (Location of the symbol related to previous error)
-Hallway.cs(11,62): error CS0201: Only assignment, call, increment, decrement, await, and new object expressions can be used as a statement
+Hallway.cs(11,63): error CS0201: Only assignment, call, increment, decrement, await, and new object expressions can be used as a statement
 Hallway.cs(15,9): error CS0246: The type or namespace name `returns' could not be found. Are you missing an assembly reference?
 HallwayTest.cs(24,17): error CS1061: Type `Hallway' does not contain a definition for `Toggle' and no extension method `Toggle' of type `Hallway' could be found. Are you missing an assembly reference?
 Hallway.cs(1,14): (Location of the symbol related to previous error)
