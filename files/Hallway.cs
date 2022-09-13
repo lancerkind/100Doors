@@ -14,8 +14,8 @@ public class Hallway {
         
     public void Traverse(int stepBy = 1) {
         
-        /* (knob < door.Length) && (knob + stepBy <= door.Length)*/
-        for ( int knob = 0 + stepBy - 1; (knob < door.Length) && (knob + stepBy <= door.Length); knob+=stepBy) {
+
+        for ( int knob = 0 + stepBy - 1; limit(knob, stepBy); knob+=stepBy) {
      //       Console.WriteLine("knob " + knob);
             Toggle(knob);
         }
@@ -23,6 +23,10 @@ public class Hallway {
     
     private bool limit(int knob, int stepBy){
         return knob < ((door.Length / stepBy) * stepBy);
+    }
+    
+    private bool limit2DontWork(int knob, int stepBy) {
+        return (knob < door.Length) && (knob + stepBy <= door.Length);
     }
     
     public bool [] ToArray()
