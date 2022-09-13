@@ -85,7 +85,7 @@ public class HallwayTest
         
             //Assert.True(hallway.ToArray()[98], "we are at 98");
             //Assert.False(hallway.ToArray()[99]);
-        //}
+        }
         
     }
     
