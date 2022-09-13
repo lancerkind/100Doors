@@ -19,7 +19,12 @@ public class Hallway {
         //  90 + 3 = 93
         //  93 + 3 = 96
         //  96 + 3 = 99  (96 + 3 <= 100)
-        for ( int knob = 0 + stepBy - 1; (knob < door.Length) && (knob + stepBy -1 <= door.Length); knob+=stepBy) {
+        //     33 * 3 = 99
+        
+        //   50 * 2 = 100 
+        //  (door.Length / stepBy ) * stepBy < 100
+        /* (knob < door.Length) && (knob + stepBy <= door.Length)*/
+        for ( int knob = 0 + stepBy - 1; knob < (door.Length / stepBy) * stepBy; knob+=stepBy) {
             Toggle(knob);
         }
     }
