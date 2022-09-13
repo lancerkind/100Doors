@@ -13,23 +13,16 @@ public class Hallway {
     }
         
     public void Traverse(int stepBy = 1) {
-        ///         0     + 1 - 1;                                                                0 += 1 == 1
-        ///                                                                                       1 += 1 == 2
-        ///        when we get to 99   + 1 == 100
-        ///                       99 + 1 <= 100
-        //                                      
-        //  90 + 3 = 93
-        //  93 + 3 = 96
-        //  96 + 3 = 99  (96 + 3 <= 100)
-        //     33 * 3 = 99
         
-        //   50 * 2 = 100 
-        //  (door.Length / stepBy ) * stepBy < 100
         /* (knob < door.Length) && (knob + stepBy <= door.Length)*/
-        for ( int knob = 0 + stepBy - 1; knob < ((door.Length / stepBy) * stepBy); knob+=stepBy) {
+        for ( int knob = 0 + stepBy - 1; (knob < door.Length) && (knob + stepBy <= door.Length); knob+=stepBy) {
      //       Console.WriteLine("knob " + knob);
             Toggle(knob);
         }
+    }
+    
+    private bool limit(int knob, int stepBy){
+        return knob < ((door.Length / stepBy) * stepBy)
     }
     
     public bool [] ToArray()
