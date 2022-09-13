@@ -110,7 +110,7 @@ public class HallwayTest
         
         int product = (length / stepBy) * stepBy;
         
-        Assert.Equals("99", product);
+        Assert.AreEqual("99", product);
     }
         
 
