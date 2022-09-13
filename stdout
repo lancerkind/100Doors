@@ -1,1 +1,45 @@
-Compilation failed: 1 error(s), 0 warnings
+Runtime Environment
+   OS Version: Linux 4.14.287.215 
+  CLR Version: 4.0.30319.42000
+
+Test Files
+    ./RunTests.dll
+
+
+Errors, Failures and Warnings
+
+1) Failed : HallwayTest.Traverse
+  Expected and actual are both <System.Boolean[100]>
+  Values differ at index [99]
+  Expected: True
+  But was:  False
+  at HallwayTest.Traverse () [0x00000] in <cc976162d0fd43269d1bec0d6ef58960>:0 
+
+2) Failed : HallwayTest.TraverseOpensEveryOtherDoor
+  hallway.ToArray()[0]
+  Expected: False
+  But was:  True
+  at HallwayTest.TraverseOpensEveryOtherDoor () [0x00000] in <cc976162d0fd43269d1bec0d6ef58960>:0 
+
+3) Failed : HallwayTest.TraveseOpensEvery3rdDoor
+  Expected: False
+  But was:  True
+  at HallwayTest.TraveseOpensEvery3rdDoor () [0x00000] in <cc976162d0fd43269d1bec0d6ef58960>:0 
+
+Run Settings
+    DisposeRunners: True
+    WorkDirectory: /sandbox
+    ImageRuntimeVersion: 4.0.30319
+    ImageRequiresX86: False
+    ImageRequiresDefaultAppDomainAssemblyResolver: False
+    NumberOfTestWorkers: 4
+
+Test Run Summary
+  Overall result: Failed
+  Test Count: 11, Passed: 8, Failed: 3, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 3, Errors: 0, Invalid: 0
+  Start time: 2022-09-13 20:42:05Z
+    End time: 2022-09-13 20:42:06Z
+    Duration: 0.739 seconds
+
+Results (nunit3) saved as TestResult.xml
