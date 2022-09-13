@@ -9,10 +9,10 @@ Test Files
 Errors, Failures and Warnings
 
 1) Failed : HallwayTest.TraveseOpensEvery3rdDoor
-  i=962
+  /n i=962
   Expected: True
   But was:  False
-  at HallwayTest.TraveseOpensEvery3rdDoor () [0x00000] in <9a9dfa9750624cf58029911b61864b45>:0 
+  at HallwayTest.TraveseOpensEvery3rdDoor () [0x00000] in <ec9ef183f8a349b48a932f52e1c74876>:0 
 
 Run Settings
     DisposeRunners: True
@@ -26,8 +26,8 @@ Test Run Summary
   Overall result: Failed
   Test Count: 11, Passed: 10, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
     Failed Tests - Failures: 1, Errors: 0, Invalid: 0
-  Start time: 2022-09-13 21:05:46Z
-    End time: 2022-09-13 21:05:47Z
-    Duration: 0.689 seconds
+  Start time: 2022-09-13 21:06:48Z
+    End time: 2022-09-13 21:06:48Z
+    Duration: 0.691 seconds
 
 Results (nunit3) saved as TestResult.xml
