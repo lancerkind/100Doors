@@ -1,1 +1,33 @@
-Compilation failed: 6 error(s), 0 warnings
+Runtime Environment
+   OS Version: Linux 4.14.287.215 
+  CLR Version: 4.0.30319.42000
+
+Test Files
+    ./RunTests.dll
+
+
+Errors, Failures and Warnings
+
+1) Failed : HallwayTest.TraveseOpensEvery3rdDoor
+  i=962
+  Expected: True
+  But was:  False
+  at HallwayTest.TraveseOpensEvery3rdDoor () [0x00000] in <9a9dfa9750624cf58029911b61864b45>:0 
+
+Run Settings
+    DisposeRunners: True
+    WorkDirectory: /sandbox
+    ImageRuntimeVersion: 4.0.30319
+    ImageRequiresX86: False
+    ImageRequiresDefaultAppDomainAssemblyResolver: False
+    NumberOfTestWorkers: 4
+
+Test Run Summary
+  Overall result: Failed
+  Test Count: 11, Passed: 10, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 1, Errors: 0, Invalid: 0
+  Start time: 2022-09-13 21:05:12Z
+    End time: 2022-09-13 21:05:13Z
+    Duration: 0.726 seconds
+
+Results (nunit3) saved as TestResult.xml
