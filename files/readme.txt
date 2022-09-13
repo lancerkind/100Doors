@@ -43,3 +43,13 @@ https://mathworld.wolfram.com/FundamentalTheoremofArithmetic.html
 Table of factors from 1 to 100
 Let’s find factors of all numbers from 1 to 100 and check whether they are prime or not.
 Then count factors and look for Odd number of factors.... 10.
+
+What we learned Sep13th: 
+- David says write unit tests because 3 experienced engineers don't write code that computes boundries on the 1st try, the 2nd try, and ....... and finally. 
+- Just because you got your initial condition correct doesn't mean you have the boundary right.
+- Ankur: boundary conditions take a lot of time. Finally came up with a mathematical formula that works.
+- Lance: 
+ - how to step through a for loop using other stepping functions.
+ - functionas can be in the boundary test.
+ - WriteLine
+ - Writing a simple test is very important, otherwise you'll need to debug the test code.
