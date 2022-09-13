@@ -108,7 +108,8 @@ public class HallwayTest
     public void learIntegerDivision() {
         int length = 100; int stepBy =3;
         
-        int product = (length / stepBy) * stepBy
+        int product = (length / stepBy) * stepBy;
+        
         Assert.Equals("99", product);
     }
         
