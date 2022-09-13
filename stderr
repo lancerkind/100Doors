@@ -1,1 +1,2 @@
-Hallway.cs(28,13): error CS0103: The name `Console' does not exist in the current context
+Hallway.cs(30,21): error CS0117: `System.Console' does not contain a definition for `Writeln'
+/usr/lib/mono/4.5/mscorlib.dll (Location of the symbol related to previous error)

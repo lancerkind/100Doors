@@ -1,3 +1,5 @@
+using System;
+
 public class Hallway {
 
     private bool [] door = new bool[100];
