@@ -22,7 +22,7 @@ public class Hallway {
     }
     
     private bool limit(int knob, int stepBy){
-        return knob < ((door.Length / stepBy) * stepBy)
+        return knob < ((door.Length / stepBy) * stepBy);
     }
     
     public bool [] ToArray()
