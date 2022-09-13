@@ -71,6 +71,18 @@ public class HallwayTest
     }
 
     [Test]
+    public void TraveseOpensEvery3rdDoor()
+    {
+        hallway.Traverse(3);
+        
+        for(int i= 0; i < 99; i+=3) {
+            Assert.False(hallway.ToArray()[i]);
+            Assert.False(hallway.ToArray()[i+1]);
+            Assert.True(hallway.ToArray()[i+2]);
+        }
+        
+    }
+    [Test]
     public void ToggleTwice()
     {
         hallway.Toggle(0);

@@ -6,6 +6,16 @@ Test Files
     ./RunTests.dll
 
 
+Errors, Failures and Warnings
+
+1) Error : HallwayTest.TraveseOpensEvery3rdDoor
+System.IndexOutOfRangeException : Index was outside the bounds of the array.
+  at Hallway.Toggle (System.Int32 roomNumber) [0x00000] in <ac67850eea814a14b7cc7d2da868bf64>:0 
+  at Hallway.Traverse (System.Int32 stepBy) [0x0000b] in <ac67850eea814a14b7cc7d2da868bf64>:0 
+  at HallwayTest.TraveseOpensEvery3rdDoor () [0x00000] in <ac67850eea814a14b7cc7d2da868bf64>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
+
 Run Settings
     DisposeRunners: True
     WorkDirectory: /sandbox
@@ -15,10 +25,11 @@ Run Settings
     NumberOfTestWorkers: 4
 
 Test Run Summary
-  Overall result: Passed
-  Test Count: 10, Passed: 10, Failed: 0, Warnings: 0, Inconclusive: 0, Skipped: 0
-  Start time: 2022-09-13 20:15:15Z
-    End time: 2022-09-13 20:15:16Z
-    Duration: 0.697 seconds
+  Overall result: Failed
+  Test Count: 11, Passed: 10, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 0, Errors: 1, Invalid: 0
+  Start time: 2022-09-13 20:25:33Z
+    End time: 2022-09-13 20:25:33Z
+    Duration: 0.703 seconds
 
 Results (nunit3) saved as TestResult.xml
