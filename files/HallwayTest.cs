@@ -105,12 +105,12 @@ public class HallwayTest
     }
     
     [Test]
-    public void learIntegerDivision() {
+    public void learnIntegerDivision() {
         int length = 100; int stepBy =3;
         
         int product = (length / stepBy) * stepBy;
         
-        Assert.AreEqual("99", product);
+        Assert.AreEqual(99, product);
     }
         
 

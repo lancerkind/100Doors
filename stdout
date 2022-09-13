@@ -8,14 +8,9 @@ Test Files
 
 Errors, Failures and Warnings
 
-1) Failed : HallwayTest.learIntegerDivision
-  Expected: "99"
-  But was:  99
-  at HallwayTest.learIntegerDivision () [0x00000] in <de9a24c6f14b48c68dbd71779c878fde>:0 
-
-2) Error : HallwayTest.TraveseOpensEvery3rdDoor
+1) Error : HallwayTest.TraveseOpensEvery3rdDoor
 System.IndexOutOfRangeException : Index was outside the bounds of the array.
-  at HallwayTest.TraveseOpensEvery3rdDoor () [0x00045] in <de9a24c6f14b48c68dbd71779c878fde>:0 
+  at HallwayTest.TraveseOpensEvery3rdDoor () [0x00045] in <b0de89e4065b4ea480d2f4f0393026bb>:0 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c4bddbfe864a4b8191bb818d6b204e9d>:0 
 
@@ -29,10 +24,10 @@ Run Settings
 
 Test Run Summary
   Overall result: Failed
-  Test Count: 12, Passed: 10, Failed: 2, Warnings: 0, Inconclusive: 0, Skipped: 0
-    Failed Tests - Failures: 1, Errors: 1, Invalid: 0
-  Start time: 2022-09-13 21:24:40Z
-    End time: 2022-09-13 21:24:40Z
-    Duration: 0.710 seconds
+  Test Count: 12, Passed: 11, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 0, Errors: 1, Invalid: 0
+  Start time: 2022-09-13 21:25:08Z
+    End time: 2022-09-13 21:25:08Z
+    Duration: 0.708 seconds
 
 Results (nunit3) saved as TestResult.xml
