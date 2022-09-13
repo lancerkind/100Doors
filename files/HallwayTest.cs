@@ -75,7 +75,7 @@ public class HallwayTest
     {
         hallway.Traverse(3);
         
-        for(int i= 0; i < 98; i+=3) {
+        for(int i= 0; i < 99; i+=3) {
             //Assert.False(hallway.ToArray()[0]);
             //Assert.False(hallway.ToArray()[1]);
             //Assert.True(hallway.ToArray()[2]);
