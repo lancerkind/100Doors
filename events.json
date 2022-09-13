@@ -971,5 +971,21 @@
       13,
       995536
     ]
+  },
+  {
+    "duration": 2.377052,
+    "colour": "red",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 61,
+    "time": [
+      2022,
+      9,
+      13,
+      21,
+      5,
+      47,
+      970747
+    ]
   }
 ]
