@@ -1,0 +1,1 @@
+Hallway.cs(14,42): error CS0019: Operator `&&' cannot be applied to operands of type `int' and `int'
