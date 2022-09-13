@@ -45,7 +45,7 @@ public class HallwayTest
     public void Traverse()
     {
         hallway.Traverse();
-        CollectionAssert.AreEqual(BuildHallwayOfOpenDoors(true), hallway.ToArray());
+        CollectionAssert.AreEqual(BuildHallwayOfDoors(true), hallway.ToArray());
     }
 
 
@@ -55,7 +55,7 @@ public class HallwayTest
         hallway.Traverse();
         hallway.Traverse();
 
-        CollectionAssert.AreEqual(BuildHallwayOfOpenDoors(false), hallway.ToArray() );
+        CollectionAssert.AreEqual(BuildHallwayOfDoors(false), hallway.ToArray() );
     }
     
     [Test]
@@ -84,7 +84,7 @@ public class HallwayTest
         CollectionAssert.AreEqual(Enumerable.Repeat(false, 100).ToArray(), hallway.ToArray());
     }
 
-    private bool[] BuildHallwayOfOpenDoors(bool doorAjar = true) {
+    private bool[] BuildHallwayOfDoors(bool doorAjar = true) {
         return Enumerable.Repeat(doorAjar, 100).ToArray();
     }
 
