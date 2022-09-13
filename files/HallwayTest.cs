@@ -103,6 +103,15 @@ public class HallwayTest
     {
         CollectionAssert.AreEqual(Enumerable.Repeat(false, 100).ToArray(), hallway.ToArray());
     }
+    
+    [Test]
+    public void learIntegerDivision() {
+        int length = 100; int stepBy =3;
+        
+        int product = (length / stepBy) * stepBy
+        Assert.Equals("99", product);
+    }
+        
 
     private bool[] BuildHallwayOfDoors(bool doorAjar = true) {
         return Enumerable.Repeat(doorAjar, 100).ToArray();
