@@ -747,5 +747,21 @@
       6,
       624899
     ]
+  },
+  {
+    "duration": 2.403346,
+    "colour": "red",
+    "predicted": "green",
+    "revert_if_wrong": "off",
+    "index": 47,
+    "time": [
+      2022,
+      9,
+      13,
+      20,
+      44,
+      6,
+      795130
+    ]
   }
 ]
