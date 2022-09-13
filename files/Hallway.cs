@@ -15,8 +15,11 @@ public class Hallway {
         ///                                                                                       1 += 1 == 2
         ///        when we get to 99   + 1 == 100
         ///                       99 + 1 <= 100
-        //         
-        for ( int knob = 0 + stepBy - 1; (knob < door.Length) && (knob + stepBy <= door.Length); knob+=stepBy) {
+        //                                      
+        //  90 + 3 = 93
+        //  93 + 3 = 96
+        //  96 + 3 = 99  (96 + 3 <= 100)
+        for ( int knob = 0 + stepBy - 1; (knob < door.Length) && (knob + stepBy -1 <= door.Length); knob+=stepBy) {
             Toggle(knob);
         }
     }
