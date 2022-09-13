@@ -6,6 +6,13 @@ Test Files
     ./RunTests.dll
 
 
+Errors, Failures and Warnings
+
+1) Failed : HallwayTest.TraveseOpensEvery3rdDoor
+  Expected: True
+  But was:  False
+  at HallwayTest.TraveseOpensEvery3rdDoor () [0x00000] in <167691d340414d4f80ec5a7c64eb7b84>:0 
+
 Run Settings
     DisposeRunners: True
     WorkDirectory: /sandbox
@@ -15,10 +22,11 @@ Run Settings
     NumberOfTestWorkers: 4
 
 Test Run Summary
-  Overall result: Passed
-  Test Count: 11, Passed: 11, Failed: 0, Warnings: 0, Inconclusive: 0, Skipped: 0
-  Start time: 2022-09-13 20:49:01Z
-    End time: 2022-09-13 20:49:02Z
-    Duration: 0.672 seconds
+  Overall result: Failed
+  Test Count: 11, Passed: 10, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
+    Failed Tests - Failures: 1, Errors: 0, Invalid: 0
+  Start time: 2022-09-13 20:57:04Z
+    End time: 2022-09-13 20:57:05Z
+    Duration: 0.735 seconds
 
 Results (nunit3) saved as TestResult.xml

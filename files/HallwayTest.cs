@@ -79,9 +79,13 @@ public class HallwayTest
             Assert.False(hallway.ToArray()[0]);
             Assert.False(hallway.ToArray()[1]);
             Assert.True(hallway.ToArray()[2]);
+        
+            Assert.True(hallway.ToArray()[99]);
         //}
         
     }
+    
+    
     [Test]
     public void ToggleTwice()
     {
