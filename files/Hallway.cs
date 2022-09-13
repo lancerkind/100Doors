@@ -27,7 +27,7 @@ public class Hallway {
         //  (door.Length / stepBy ) * stepBy < 100
         /* (knob < door.Length) && (knob + stepBy <= door.Length)*/
         for ( int knob = 0 + stepBy - 1; knob < ((door.Length / stepBy) * stepBy); knob+=stepBy) {
-            Console.Writeln("knob " + knob);
+            Console.Writeline("knob " + knob);
             Toggle(knob);
         }
     }

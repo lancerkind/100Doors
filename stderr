@@ -1,2 +1,2 @@
-Hallway.cs(30,21): error CS0117: `System.Console' does not contain a definition for `Writeln'
+Hallway.cs(30,21): error CS0117: `System.Console' does not contain a definition for `Writeline'
 /usr/lib/mono/4.5/mscorlib.dll (Location of the symbol related to previous error)
