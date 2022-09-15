@@ -123,7 +123,7 @@ public class HallwayTest
   
     [Test]
     public void HunderedthDoorIsToggled(){
-        hallway.traverse(100);
+        hallway.Traverse(100);
         Assert.False(hallway.ToArray()[98]);
         Assert.True(hallway.ToArray()[99]);
     }
