@@ -91,10 +91,10 @@ public class HallwayTest
         // 1 0000
         // 2 0101
         
-        Assert.True(false, hallway.ToArray()[0]);
-        Assert.True(true, hallway.ToArray()[1]);
-        Assert.True(false, hallway.ToArray()[2]);
-        Assert.True(true, hallway.ToArray()[3]);
+        Assert.False(hallway.ToArray()[0]);
+        Assert.True(hallway.ToArray()[1]);
+        Assert.False(hallway.ToArray()[2]);
+        Assert.True(hallway.ToArray()[3]);
     }
     
     
