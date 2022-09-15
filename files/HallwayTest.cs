@@ -76,15 +76,9 @@ public class HallwayTest
         hallway.Traverse(3);
         
         for(int i= 0; i < 99; i+=3) {
-            //Assert.False(hallway.ToArray()[0]);
-            //Assert.False(hallway.ToArray()[1]);
-            //Assert.True(hallway.ToArray()[2]);
             Assert.False(hallway.ToArray()[i], "\n i=" + i);
             Assert.False(hallway.ToArray()[i+1], "\n i=" + (i+1));
             Assert.True(hallway.ToArray()[i+2], "\n i=" + (i+2));
-        
-            //Assert.True(hallway.ToArray()[98], "we are at 98");
-            //Assert.False(hallway.ToArray()[99]);
         }
         
     }
