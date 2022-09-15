@@ -8,10 +8,11 @@ Test Files
 
 Errors, Failures and Warnings
 
-1) Failed : HallwayTest.TraverseOneThenTwo
+1) Failed : HallwayTest.Traverse_ToggleEveryDoorThenToggleEveryOtherDoor
+  index 0
   Expected: False
   But was:  True
-  at HallwayTest.TraverseOneThenTwo () [0x00000] in <14d5ddf2b327491182cd9fb697cb7c58>:0 
+  at HallwayTest.Traverse_ToggleEveryDoorThenToggleEveryOtherDoor () [0x00000] in <32aa12f55590462ca4f47bc82e453d77>:0 
 
 Run Settings
     DisposeRunners: True
@@ -25,8 +26,8 @@ Test Run Summary
   Overall result: Failed
   Test Count: 13, Passed: 12, Failed: 1, Warnings: 0, Inconclusive: 0, Skipped: 0
     Failed Tests - Failures: 1, Errors: 0, Invalid: 0
-  Start time: 2022-09-15 20:19:05Z
-    End time: 2022-09-15 20:19:06Z
-    Duration: 0.743 seconds
+  Start time: 2022-09-15 20:21:09Z
+    End time: 2022-09-15 20:21:09Z
+    Duration: 0.710 seconds
 
 Results (nunit3) saved as TestResult.xml
