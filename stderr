@@ -1,3 +1,0 @@
-HallwayTest.cs(146,9): error CS1502: The best overloaded method match for `HallwayTest.PrintArray(bool[])' has some invalid arguments
-HallwayTest.cs(153,18): (Location of the symbol related to previous error)
-HallwayTest.cs(146,20): error CS1503: Argument `#1' cannot convert `Hallway' expression to type `bool[]'
