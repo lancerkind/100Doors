@@ -80,7 +80,21 @@ public class HallwayTest
             Assert.False(hallway.ToArray()[i+1], "\n i=" + (i+1));
             Assert.True(hallway.ToArray()[i+2], "\n i=" + (i+2));
         }
+    }
+    
+    [Test]
+    public void TraverseOneThenTwo(){
+        hallway.Traverse(1);
+        hallway.Traverse(2);
+        //   1234
+        //   XXXX
+        // 1 0000
+        // 2 0101
         
+        Assert.True(false, hallway.ToArray()[0]);
+        Assert.True(true, hallway.ToArray()[1]);
+        Assert.True(false, hallway.ToArray()[2]);
+        Assert.True(true, hallway.ToArray()[3]);
     }
     
     
