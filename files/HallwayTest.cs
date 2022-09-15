@@ -91,13 +91,6 @@ public class HallwayTest
         // 1 TTTT
         // 2 TFTF
         
-        /*
-        Assert.True(hallway.ToArray()[0], "index 0");
-        Assert.False(hallway.ToArray()[1], "index 1");
-        Assert.True(hallway.ToArray()[2], "index 2");
-        Assert.False(hallway.ToArray()[3], "index 3");
-        */
-        
         for(int i= 0; i < 99; i+=2) {
             Assert.True(hallway.ToArray()[i], "\n i=" + i);
             Assert.False(hallway.ToArray()[i+1], "\n i=" + (i+1));
@@ -127,7 +120,19 @@ public class HallwayTest
         
         Assert.AreEqual(99, product);
     }
-        
+  
+    [Test]
+    public void HunderedthDoorIsToggled(){
+        hallway.traverse(100);
+        Assert.False(hallway.ToArray()[98]);
+        Assert.True(hallway.ToArray()[99]);
+    }
+    
+//    [Test]
+    public void learnWhatToggling100DoorsLooksLike(){
+        for(int stepBy = 1; stepBy <= hallway.ToArray().Length; stepBy++) hallway.Traverse(step);
+            
+    }
 
     private bool[] BuildHallwayOfDoors(bool doorAjar = true) {
         return Enumerable.Repeat(doorAjar, 100).ToArray();

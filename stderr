@@ -1,0 +1,3 @@
+HallwayTest.cs(126,17): error CS1061: Type `Hallway' does not contain a definition for `traverse' and no extension method `traverse' of type `Hallway' could be found. Are you missing an assembly reference?
+Hallway.cs(3,14): (Location of the symbol related to previous error)
+HallwayTest.cs(133,92): error CS0103: The name `step' does not exist in the current context
