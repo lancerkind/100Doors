@@ -130,7 +130,7 @@ public class HallwayTest
     
 //    [Test]
     public void learnWhatToggling100DoorsLooksLike(){
-        for(int stepBy = 1; stepBy <= hallway.ToArray().Length; stepBy++) hallway.Traverse(step);
+        for(int stepBy = 1; stepBy <= hallway.ToArray().Length; stepBy++) hallway.Traverse(stepBy);
             
     }
 
