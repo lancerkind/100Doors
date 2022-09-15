@@ -87,14 +87,14 @@ public class HallwayTest
         hallway.Traverse(1);
         hallway.Traverse(2);
         //   1234
-        //   XXXX
-        // 1 0000
-        // 2 0101
+        //   FFFF
+        // 1 TTTT
+        // 2 TFTF
         
-        Assert.False(hallway.ToArray()[0], "index 0");
-        Assert.True(hallway.ToArray()[1], "index 1");
-        Assert.False(hallway.ToArray()[2], "index 2");
-        Assert.True(hallway.ToArray()[3], "index 3");
+        Assert.True(hallway.ToArray()[0], "index 0");
+        Assert.False(hallway.ToArray()[1], "index 1");
+        Assert.True(hallway.ToArray()[2], "index 2");
+        Assert.False(hallway.ToArray()[3], "index 3");
     }
     
     
