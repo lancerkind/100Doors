@@ -91,10 +91,17 @@ public class HallwayTest
         // 1 TTTT
         // 2 TFTF
         
+        /*
         Assert.True(hallway.ToArray()[0], "index 0");
         Assert.False(hallway.ToArray()[1], "index 1");
         Assert.True(hallway.ToArray()[2], "index 2");
         Assert.False(hallway.ToArray()[3], "index 3");
+        */
+        
+        for(int i= 0; i < 99; i+=2) {
+            Assert.True(hallway.ToArray()[i], "\n i=" + i);
+            Assert.False(hallway.ToArray()[i+1], "\n i=" + (i+1));
+        }
     }
     
     
