@@ -15,7 +15,7 @@ Lances guest 50/50 Open/Close doors
 
 David actually took the time to think deeply and Malibu (his dog) came up with 10 Open doors.
 
-====== David’s rational for prediction of 10 doors Open =======
+====== David and Malibu’s rational for prediction of 10 doors Open =======
 
 Key:   o newly Opened; x newly Closed; O - Open; X - Closed
 

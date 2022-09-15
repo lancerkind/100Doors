@@ -128,7 +128,7 @@ public class HallwayTest
         Assert.True(hallway.ToArray()[99]);
     }
     
-        [Test]
+    [Test]
     public void Traverse33(){
         hallway.Traverse(33);
         Assert.True(hallway.ToArray()[33 - 1]);
@@ -140,12 +140,12 @@ public class HallwayTest
 
 
     
-//    [Test]
+    [Test]
     public void learnWhatToggling100DoorsLooksLike(){
         for(int stepBy = 1; stepBy <= hallway.ToArray().Length; stepBy++) hallway.Traverse(stepBy);
-            
+        PrintArray(hallway);            
     }
-
+            
     private bool[] BuildHallwayOfDoors(bool doorAjar = true) {
         return Enumerable.Repeat(doorAjar, 100).ToArray();
     }
